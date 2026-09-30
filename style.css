@@ -171,3 +171,50 @@ footer a:hover {
 footer i {
     font-size: 30px;
 }
+
+@media (max-width: 768px) {
+
+    section {
+        width: 100%;
+        padding: 80px 20px 0;
+    }
+
+    .hero {
+        width: 100%;
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+
+    .hero div {
+        width: 100%;
+        max-width: 500px;
+    }
+
+    .hero img {
+        width: 220px;
+        max-width: 100%;
+    }
+
+    .detalhes {
+        width: 100%;
+        flex-direction: column;
+        gap: 40px;
+        text-align: center;
+        align-items: center;
+    }
+
+    .detalhes div {
+        width: 100%;
+    }
+
+    ul {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .rodape {
+        flex-direction: column;
+        text-align: center;
+    }
+}
